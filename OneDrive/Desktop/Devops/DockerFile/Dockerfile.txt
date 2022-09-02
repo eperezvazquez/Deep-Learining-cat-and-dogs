@@ -1,0 +1,3 @@
+docker pull netsandbox/request-tracker
+docker run -d --name rt -p 8083:80 netsandbox/request-tracker:4.4
+LABEL maintainer=JorgeGonzalez <jorge.gonzalez@utec.edu.uy>
